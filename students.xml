@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+STUDENT DEFAULT STRUCTURE
+
+<student id="###">
+  <studentNameFirst>STRING</studentNameFirst>
+  <studentNameLast>STRING</studentNameLast>
+  <studentHours>###</studentHours>
+  <studentLevel>###</studentLevel>
+  <studentBalance>###.##</studentBalance>
+</student>
+-->
+
+
+<!--All of the students enrolled are included in <students>-->
+<students>                       
+
+  <!--This <student> group holds the information for a single student-->
+  <student id="00">              
+    <studentNameFirst>John</studentNameFirst>
+    <studentNameLast>Doe</studentNameLast>
+    <studentHours>24</studentHours>
+    <studentLevel>3</studentLevel>
+    <studentBalance>115.00</studentBalance>
+  </student>
+
+  <!--This <student> group holds the information for a single student-->
+  <student id="01">
+    <studentNameFirst>Jane</studentNameFirst>
+    <studentNameLast>Farmer</studentNameLast>
+    <studentHours>3</studentHours>
+    <studentLevel>1</studentLevel>
+    <studentBalance>0.00</studentBalance>
+  </student>
+  
+</students>
