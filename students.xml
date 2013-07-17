@@ -25,7 +25,6 @@ STUDENT DEFAULT STRUCTURE
     <studentBalance>115.00</studentBalance>
   </student>
 
-  <!--This <student> group holds the information for a single student-->
   <student id="01">
     <studentNameFirst>Jane</studentNameFirst>
     <studentNameLast>Farmer</studentNameLast>
